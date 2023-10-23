@@ -35,5 +35,5 @@ def find_top_n(filename, n):
 # Movie data comes from "Movie Gross and Ratings" dataset on Kaggle by Yashwanth Sharaf
 # https://www.kaggle.com/datasets/thedevastator/movie-gross-and-ratings-from-1989-to-2014
 if __name__ == "__main__":
-    n = 5
+    n = 10
     find_top_n("Movies_gross_rating.csv", n)
