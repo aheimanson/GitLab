@@ -43,6 +43,7 @@ What branches would change, and how?
 git checkout test
 git merge top_N
 ```
+It changed test by merging top_N into the test branch. That meant that the process_movie_data.py file got changed to be the top_N function.
 
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -50,6 +51,7 @@ What branches would change, and how?
 git checkout top_ten
 git merge test
 ```
+It changed top_ten by merging test into the top_ten branch. That meant that the quiz.md file got renamed to answers.md since that was the difference between the branches.
 
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -58,3 +60,4 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+It changed the files in test that were named the same to be the ones from top_ten, and when the second rebase was called it commented the changes of the same file to choose which to use. The file that was named the same but didn't contain the same information was process_movie_data.py so thats where the changes were seen.
